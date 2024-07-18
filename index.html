@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecommerce</title>
+    <title>Ecommerce - Inicio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,12 +32,12 @@
 
             <div id="navegacion" class="navbar-collapse collapse">
                 <nav class="navbar-nav container d-flex flex-md-row text-center justify-content-md-between">
-                    <a class="text-dark text-decoration-none" href="#">Inicio</a>
-                    <a class="text-dark text-decoration-none" href="#">Nosotros</a>
-                    <a class="text-dark text-decoration-none" href="#">Tienda</a>
-                    <a class="text-dark text-decoration-none" href="#">Blog</a>
-                    <a class="text-dark text-decoration-none" href="#">Galería</a>
-                    <a class="text-dark text-decoration-none" href="#">Contacto</a>
+                    <a class="text-dark text-decoration-none" href="index.html">Inicio</a>
+                    <a class="text-dark text-decoration-none" href="nosotros.html">Nosotros</a>
+                    <a class="text-dark text-decoration-none" href="tienda.html">Tienda</a>
+                    <a class="text-dark text-decoration-none" href="blog.html">Blog</a>
+                    <a class="text-dark text-decoration-none" href="galeria.html">Galería</a>
+                    <a class="text-dark text-decoration-none" href="contacto.html">Contacto</a>
                 </nav>
             </div>
 
@@ -66,7 +66,7 @@
         <div class="row">
             <div class="col-md-6 mb-4">
                 <div class="card">
-                    <img src="img/producto2.jpg" alt="imagen producto">
+                    <img class="card-img-top" src="img/producto2.jpg" alt="imagen producto">
 
                     <div class="card-body text-center bg-primary text-white p-5">
                         <h3>Producto 2</h3>
@@ -80,7 +80,7 @@
             </div>
             <div class="col-md-6 mb-4">
                 <div class="card">
-                    <img src="img/producto3.jpg" alt="imagen producto">
+                    <img class="card-img-top" src="img/producto3.jpg" alt="imagen producto">
 
                     <div class="card-body text-center bg-primary text-white p-5">
                         <h3>Producto 3</h3>
@@ -96,7 +96,7 @@
         <div class="row">
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="img/producto4.jpg" alt="imagen producto">
+                    <img class="card-img-top" src="img/producto4.jpg" alt="imagen producto">
 
                     <div class="card-body text-center bg-primary text-white p-5">
                         <h3>Producto 4</h3>
@@ -110,7 +110,7 @@
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="img/producto5.jpg" alt="imagen producto">
+                    <img class="card-img-top" src="img/producto5.jpg" alt="imagen producto">
 
                     <div class="card-body text-center bg-primary text-white p-5">
                         <h3>Producto 5</h3>
@@ -124,7 +124,7 @@
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="img/producto6.jpg" alt="imagen producto">
+                    <img class="card-img-top" src="img/producto6.jpg" alt="imagen producto">
 
                     <div class="card-body text-center bg-primary text-white p-5">
                         <h3>Producto 6</h3>
@@ -140,30 +140,75 @@
     </main>
 
 
-    <div class="container-xl">
-        <h1 class="text-center py-5">Categorías de productos</h1>
-
-        <div class="row mt-5">
-            <div class="col-md-4 categoria">
-                <div class="overflow-hidden">
-                    <img class="img-fluid" src="img/categoria1.jpg" alt="imagen categoria">
+    <section>
+        <div class="container-xl">
+            <h1 class="text-center py-5">Categorías de productos</h1>
+    
+            <div class="row mt-5">
+                <div class="col-md-4 categoria">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="img/categoria1.jpg" alt="imagen categoria">
+                    </div>
+                    <a class="text-dark fs-2 text-decoration-none text-center d-block py-3" href="#">Oficina</a>
                 </div>
-                <a class="text-dark fs-2 text-decoration-none text-center d-block py-3" href="#">Oficina</a>
-            </div>
-            <div class="col-md-4 categoria">
-                <div class="overflow-hidden">
-                    <img class="img-fluid" src="img/categoria2.jpg" alt="imagen categoria">
+                <div class="col-md-4 categoria">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="img/categoria2.jpg" alt="imagen categoria">
+                    </div>
+                    <a class="text-dark fs-2 text-decoration-none text-center d-block py-3" href="#">Hogar</a>
                 </div>
-                <a class="text-dark fs-2 text-decoration-none text-center d-block py-3" href="#">Hogar</a>
-            </div>
-            <div class="col-md-4 categoria">
-                <div class="overflow-hidden">
-                    <img class="img-fluid" src="img/categoria3.jpg" alt="imagen categoria">
+                <div class="col-md-4 categoria">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="img/categoria3.jpg" alt="imagen categoria">
+                    </div>
+                    <a class="text-dark fs-2 text-decoration-none text-center d-block py-3" href="#">Cocina</a>
                 </div>
-                <a class="text-dark fs-2 text-decoration-none text-center d-block py-3" href="#">Cocina</a>
             </div>
         </div>
-    </div>
+    </section>
+
+    <footer class="pt-5 mt-5 border-top">
+        <div class="container-xl mt-5">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-4 text-center">
+                    <h3 class="mb-4">Categorías</h3>
+
+                    <nav class="d-flex flex-column">
+                        <a class="text-dark text-decoration-none" href="#">Cocina</a>
+                        <a class="text-dark text-decoration-none" href="#">Oficina</a>
+                        <a class="text-dark text-decoration-none" href="#">Jardín</a>
+                        <a class="text-dark text-decoration-none" href="#">Cochera</a>
+                        <a class="text-dark text-decoration-none" href="#">Dormitorios</a>
+                    </nav>
+                </div>
+
+                <div class="col-md-4 mb-4 mb-md-4 text-center">
+                    <h3 class="mb-4">Sobre nosotros</h3>
+
+                    <nav class="d-flex flex-column">
+                        <a class="text-dark text-decoration-none" href="#">Nuestra historia</a>
+                        <a class="text-dark text-decoration-none" href="#">Misión. visión y valores</a>
+                        <a class="text-dark text-decoration-none" href="#">Carreras</a>
+                        <a class="text-dark text-decoration-none" href="#">Política de privacidad</a>
+                        <a class="text-dark text-decoration-none" href="#">Terminos del Servicio</a>
+                    </nav>
+                </div>
+
+                <div class="col-md-4 mb-4 mb-md-4 text-center">
+                    <h3 class="mb-4">Soporte</h3>
+
+                    <nav class="d-flex flex-column">
+                        <a class="text-dark text-decoration-none" href="#">Preguntas Frecuentes</a>
+                        <a class="text-dark text-decoration-none" href="#">Ayuda en Línea</a>
+                        <a class="text-dark text-decoration-none" href="#">Confianza y Seguridad</a>
+                    </nav>
+                </div>
+            </div>
+
+            <p class="mt-5 text-center fs-2">Todos los Derechos Reservados. TiendaMuebles</p>
+        </div>
+    </footer>
+
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 

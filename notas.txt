@@ -1,0 +1,1 @@
+responsively es una gran herramienta de apoyo para verificare el comportamiento en diferentes dispositivos moviles
