@@ -1,1 +1,4 @@
 responsively es una gran herramienta de apoyo para verificare el comportamiento en diferentes dispositivos moviles
+
+bootstrap validation sirve para dar una validación diferente a la propia de HTML, ambas cumplen con la misma función.
+    https://getbootstrap.com/docs/5.0/forms/validation/
